@@ -10,7 +10,7 @@ if __name__ == '__main__':
         initial_dict.pop('seed')
         initial_dict['swarm'] = False
         initial_dict['hyper'] = 'default'
-        initial_dict['folder_suffix'] = 'Speed3'
+        initial_dict['folder_suffix'] = '_3_Default'
         final_string = "--seed="+str(i+1) + " "
         dict_length = len(initial_dict.keys())
         for j, key in enumerate(initial_dict.keys()):
